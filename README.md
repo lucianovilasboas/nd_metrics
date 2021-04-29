@@ -9,15 +9,15 @@ More information about metrics and details of the algorithms can be found in the
 > Amigó, Enrique, et al.: A comparison of Extrinsic Clustering Evaluation Metrics based on Formal Constraints. In: Information Retrieval 12.4 (2009): 461-486.
 
 
-## Installation (not yet implemented)
+## Installation
 
 You can simply use `pip` (or any similar package manager) for installation:
 
-    pip install python-nd_metrics
+    pip install nd-metrics
 
 or, if you prefer a local user installation:
 
-    pip install --user python-nd_metrics
+    pip install --user nd-metrics
 
 ## Usage
 
