@@ -34,9 +34,9 @@ For examples:
 
 # For (1) representation
 y_true: {
-    1: set({0, 1, 2}), 
-    2: set({3, 4}), 
-    3: set({5, 6, 7})
+    1: {0, 1, 2}, 
+    2: {3, 4}, 
+    3: {5, 6, 7}
 }
 
 # For (2) representation
@@ -55,8 +55,8 @@ The **algorithm output** to be evaluated is called the `y_pred` and is also repr
 
 # For (1) representation
 y_pred: {
-     1: set({0, 1, 2}), 
-     2: set({3, 4, 5, 6, 7})
+     1: {0, 1, 2}, 
+     2: {3, 4, 5, 6, 7}
 }
 
 # For (2) representation
@@ -64,6 +64,49 @@ y_pred = np.array([1,1,1,2,2,2,2,2])
 
 
 ```
+
+Other exemplo:
+
+<img src="labels_test.png" width="400px">
+
+```python
+
+# For (1) representation
+y_true = {
+     '5': {0, 8, 2, 4}, 
+     '2': {1}, 
+     '0': {3}, 
+    '14': {5}, 
+     '7': {6}, 
+     '8': {7}, 
+    '13': {9}, 
+    '15': {10}
+}
+
+y_pred = {
+        '5': {0, 8, 2, 4}, 
+    '10000': {1}, 
+        '0': {3, 5}, 
+    '10001': {6}, 
+        '8': {7}, 
+    '10002': {9}, 
+       '15': {10}
+}
+
+
+# ------------------------------------------------------------------------------ #
+
+
+# For (2) representation
+
+y_true = [5,    2,5,0,5,14,    7,8,5,   13,15]
+
+y_pred = [5,10000,5,0,5, 0,10001,8,5,10002,15]
+
+
+```
+
+
 
 
 Please note that the author names (or keys in dict) **do not need** to be the same as in the ground-truth data because the algorithm only considers the groupings, it does not try to match the names of clusters to the ground-truth labels.
