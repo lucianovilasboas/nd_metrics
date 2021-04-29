@@ -65,7 +65,7 @@ y_pred = np.array([1,1,1,2,2,2,2,2])
 
 ```
 
-Other exemplo:
+Other example:
 
 <img src="labels_test.png" width="400px">
 
@@ -132,6 +132,14 @@ y_true_c, y_pred_c = make_clusters(y_true, y_pred)
 # all_metrics calculate
 all_metrics(y_true_c, y_pred_c)
 
+# output is:
+
+# Metric               P     R     M    
+# ClusterFMetric       0.500 0.333 0.400
+# KMetric              0.700 1.000 0.837
+# BCubedMetric         0.700 1.000 0.824
+# SELEMetric           0.000 0.385 0.000
+# PairwiseFMetric      0.538 1.000 0.700
 
 ```
 
