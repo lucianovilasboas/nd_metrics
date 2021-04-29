@@ -46,18 +46,18 @@ def test_all_metrics_classes():
 
 if __name__ == '__main__':
     
-    all_metics = test_all_metrics_function()
+    all_metrics = test_all_metrics_function()
 
     print("\nall_metrics_functions\n")
     print( "{:<20s} {:<5s} {:<5s} {:<5s}".format( 'Metric', "P","R","M" ))
-    for m in all_metics:
-        print( "{:<20s} {:.3f} {:.3f} {:.3f}".format( m, *all_metics[m]) )
+    for m in all_metrics:
+        print( "{:<20s} {:.3f} {:.3f} {:.3f}".format( m, *all_metrics[m]) )
 
 
 
-    all_metics = test_all_metrics_classes()
+    all_metrics = test_all_metrics_classes()
 
     print("\nall_metrics_classes\n")
     print( "{:<20s} {:<5s} {:<5s} {:<5s}".format( 'Metric', "P","R","M" ))
-    for m in all_metics:
-        print( "{:<20s} {:.3f} {:.3f} {:.3f}".format( m, *all_metics[m]) )        
+    for m in all_metrics:
+        print( "{:<20s} {:.3f} {:.3f} {:.3f}".format( m, *all_metrics[m]) )        

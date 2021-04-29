@@ -5,10 +5,11 @@ Metrics implementation in Python for Author Name Disambiguation (AND) evaluation
 More information about metrics and details of the algorithms can be found in the following publications:
 
 > Kim, J. "A fast and integrative algorithm for clustering performance evaluation in author name disambiguation." Scientometrics (2019): 661-681, 120(2).
+
 > Amigó, Enrique, et al.: A comparison of Extrinsic Clustering Evaluation Metrics based on Formal Constraints. In: Information Retrieval 12.4 (2009): 461-486.
 
 
-## Installation
+## Installation (not yet implemented)
 
 You can simply use `pip` (or any similar package manager) for installation:
 
@@ -73,8 +74,8 @@ Once you have defined the `y_true` (ground-truth data) and the `y_pred` (algorit
 
 ```python
 
-from utils import make_clusters
-from metrics import all_metrics
+from nd_metrics.utils import make_clusters
+from nd_metrics.metrics import all_metrics
 
 # true and pred labels as list or numpy 1-d array
 y_true = np.array([1,1,1,2,2,3,3,3])
