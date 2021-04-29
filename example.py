@@ -54,7 +54,6 @@ if __name__ == '__main__':
         print( "{:<20s} {:.3f} {:.3f} {:.3f}".format( m, *all_metrics[m]) )
 
 
-
     all_metrics = test_all_metrics_classes()
 
     print("\nall_metrics_classes\n")
