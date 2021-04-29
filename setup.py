@@ -5,7 +5,7 @@ with open('README.md', 'rb') as f:
 
 setuptools.setup(
     name="nd_metrics",
-    version="0.0.4",
+    version="0.0.5",
     author="Luciano Vilas Boas Espiridião",
     author_email="lucianovilasboas@gmail.com",
     description="Metrics for Author Name Disambiguation (AND) evaluation methods",
