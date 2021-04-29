@@ -116,6 +116,7 @@ This software is under the **Apache License 2.0**.
 
 ## How to cite this work
 
+```latex
 @misc{Espiridiao2021,
   author = {Espiridiao, L.V.B.},
   title = {Python ND_Metrics},
@@ -124,3 +125,4 @@ This software is under the **Apache License 2.0**.
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/lucianovilasboas/nd_metrics}}
 }
+```
