@@ -113,3 +113,14 @@ This software is under the **Apache License 2.0**.
     limitations under the License.
 
 
+
+## How to cite this work
+
+@misc{Espiridiao2021,
+  author = {Espiridiao, L.V.B.},
+  title = {Python ND_Metrics},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/lucianovilasboas/nd_metrics}}
+}
