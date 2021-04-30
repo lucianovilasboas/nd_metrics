@@ -76,7 +76,7 @@ Other example:
 
 ```python
 
-# For (1) representation
+# For representation (1)
 y_true = {
      '5': {0, 8, 2, 4}, 
      '2': {1}, 
@@ -98,11 +98,9 @@ y_pred = {
        '15': {10}
 }
 
-
 # ------------------------------------------------------------------------------ #
 
-
-# For (2) representation
+# For representation (2)
 
 y_true = [5,    2,5,0,5,14,    7,8,5,   13,15]
 
@@ -110,6 +108,11 @@ y_pred = [5,10000,5,0,5, 0,10001,8,5,10002,15]
 
 
 ```
+
+
+![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test1.png)
+![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test2.png)
+
 
 
 
