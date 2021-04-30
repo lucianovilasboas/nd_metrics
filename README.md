@@ -27,7 +27,7 @@ To evaluate any algorithm output you will need **ground-truth data** (also calle
 - (2) list/numpy 1-d array, where author labels in the gold-standard as list or numpy 1-d array. In this case, the index vector represents the citations of each author.
 
 
-For examples:
+For example:
 
 
 ```python
@@ -65,9 +65,12 @@ y_pred = np.array([1,1,1,2,2,2,2,2])
 
 ```
 
+
 Other example:
 
+<!-- ![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test.png) -->
 <img src="labels_test.png" width="400px">
+
 
 ```python
 
