@@ -65,8 +65,9 @@ y_pred = np.array([1,1,1,2,2,2,2,2])
 
 ```
 
+## Other examples
 
-Other example:
+### Example 2
 
 <!-- ![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test.png) -->
 <!-- <img src="labels_test.png" width="400px"> -->
@@ -109,8 +110,11 @@ y_pred = [5,10000,5,0,5, 0,10001,8,5,10002,15]
 
 ```
 
-
+### Example 3
 ![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test1.png)
+
+
+### Example 4
 ![](https://raw.githubusercontent.com/lucianovilasboas/nd_metrics/main/labels_test2.png)
 
 
